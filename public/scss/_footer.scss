@@ -1,0 +1,38 @@
+// FOOTER 
+.footer {
+  background: #eeeeee;
+  padding: 75px 0;
+  position: relative;
+  &__box {
+    align-items: center;
+    justify-content: center;
+  }
+  &__mail {
+    color: $color-black;
+    margin: 0 70px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 10px 0;
+    &__box {
+      flex-direction: column;
+    }
+    &__mail {
+      margin: 10px 0;
+    }
+  }
+
+}

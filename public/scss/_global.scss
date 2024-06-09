@@ -1,0 +1,114 @@
+// Глобальные стили здесь
+body {
+  background: $color-white;
+  font-size: $main-font-size;
+  font-family: $main-font-family;
+  color: $color-black;
+  font-weight: 300;
+}
+h1 {
+  color: $color-blue;
+  font-weight: 100;
+  font-size: 74px;
+  line-height: 76.36px;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  span {
+    font-size: 116px;
+    line-height: 102.2px;
+    transform: translateX(-5px);
+    display: block;
+    letter-spacing: -0.03em;
+  }
+  strong {
+    color: #1d1d1d;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 75.02px;
+    transform: translateX(2px);
+    display: block;
+    letter-spacing: 0
+  }
+}
+h2 {
+	font-size: 90px;
+  font-weight: 100;
+  color: #131313;
+  line-height: 96px;
+  text-transform: uppercase;
+  span {
+    font-weight: 900;
+    color: $color-blue;
+    display: block;
+  }
+}
+h3 {
+  font-size: 46px;
+  line-height: 52px;
+  font-weight: 100;
+  color: $color-blue;
+  span {
+    font-weight: 900;
+    display: block;
+  }
+}
+@media screen and (max-width: 1199px) {
+  h1 {
+    font-size: 51px;
+    line-height: 58px;
+    span {
+      font-size: 90px;
+    }
+    strong {
+      font-size: 47px;
+      line-height: 44px;
+    }
+  }
+  h2 {
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  h1{
+    line-height: 43px;
+    strong {
+      font-size: 41px;
+      line-height: 33px;
+    }
+    span {
+      font-size: 80px;
+      line-height: 92px;
+    }
+  } 
+  h2 {
+    font-size: 58px;
+    line-height: 67px;
+    span {
+      font-size: 63px;
+    }
+  }
+  h3 {
+    font-size: 37px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+ 
+}
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 44px;
+    line-height: 50px;
+    span {
+      font-size: 44px;
+      line-height: 50px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}

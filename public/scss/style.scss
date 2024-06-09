@@ -1,0 +1,12 @@
+// Точка входа, все импортируем сюда, стили тут НЕ пишем
+@import "fonts";
+@import "variables";
+
+@import "bootstrap";
+
+@import "global";
+@import "pages/all";
+
+@import "footer";
+@import "header";
+

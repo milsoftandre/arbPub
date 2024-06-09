@@ -1,0 +1,1367 @@
+// CARD 
+.card {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 58px;
+  border: none;
+  &__pic {
+    position: absolute;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -240px;
+  }
+  &__flex {
+    justify-content: space-between;
+  }
+  &__num {
+    font-size: 60px;
+    line-height: 43.61px;
+    color: $color-pink;
+    font-weight: 900;
+  }
+  &__desc {
+    line-height: 42px;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  &__info {
+    max-width: 338px;
+    margin-bottom: 42px;
+    padding-top: 19px;
+    margin-right: 108px;
+  }
+  &__box {
+    position: relative;
+    z-index: 2;
+  }
+  &__text {
+    margin-bottom: 30px;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  &__form {
+    label {
+      font-size: 14px;
+      color: #131313;
+      font-weight: 900;
+    }
+  }
+  .form-input {
+    margin-top: 11px;
+    position: relative;
+    input {
+      width: 305px;
+      height: 50px;
+      border: 2px solid #3b82bf;
+      padding: 18px 21px;
+      padding-right: 50px;
+      font-size: 18px;
+      color: $color-blue;
+    }
+    .form-reset {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 50px;
+    }
+  }
+  &__btn {
+    margin-top: 32px;
+  }
+  &__down {
+    margin-top: -33px;
+  }
+}
+
+
+// HOW 
+.how {
+  padding: 58px 0 73px;
+  overflow: visible;
+  position: relative;
+  background-image: linear-gradient(to top, #f5f5f5 0%, #ffffff 100%);
+  &__elem {
+    position: absolute;
+    right: 0;
+    bottom: 186px;
+    max-width: 52.5%;
+  }
+  h2 {
+    font-size: 80px;
+    line-height: 86px;
+    .lightblue {
+      color: #92c8f1;
+    }
+    .blue {
+      color: #3b82bf;
+    }
+  }
+  &__flex {
+    align-items: center;
+  }
+  &__notebook {
+    width: 156px;
+    height: 181px;
+  }
+  &__service {
+    width: 87px;
+    height: 158px;
+  }
+  &__internet {
+    width: 161px;
+    height: 166px;
+  }
+  &__window {
+    width: 78px;
+    height: 108px;
+  }
+  &__gamepad {
+    width: 100px;
+    height: 80px;
+  }
+  &__likes {
+    width: 92px;
+    height: 76px;
+  }
+  &__text {
+    font-size: 14px;
+    color: #144d7e;
+    text-align: center;
+    font-weight: 600;
+    &_long {
+      max-width: 185px;
+    }
+  }
+  &__next {
+    margin-top: -81px;
+    padding: 0 25px;
+    .how__text {
+      transform: translateY(13px);
+    }
+    &_big {
+      padding: 0;
+      margin-left: -39px;
+      margin-right: 38px;
+      position: relative;
+      .how__text {
+        position: absolute;
+        left: 0;
+        top: 35%;
+      }
+    }
+    &_without {
+      transform: translate(-14px, -6px);
+    }
+    &_ip {
+      transform: translate(4px, -15px);
+    }
+  }
+  &__pic {
+    margin: 0 auto;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__box {
+    position: relative;
+  }
+  &__bottom {
+    width: 543px;
+    border: 2px dotted #0a3c79;
+    background-color: #ffffff;
+    margin: 30px auto 0;
+    padding: 42px 46px 39px 86px;
+    border-radius: 25px;
+    line-height: 22px;
+    color: $color-blue;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    &:before {
+      display: block;
+      content: '';
+      width: 32px;
+      height: 34px;
+      background: url(../img/how-safety.svg) no-repeat center / cover;
+      position: absolute;
+      left: -17px;
+      top: 37%;
+      background-color: #fff;
+    }
+  }
+  &__photo {
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__block {
+    margin-top: -75px;
+    margin-right: 40px;
+    .how{
+      &__text {
+        margin-top: 12px;
+      }
+      &__item {
+        &:not(:last-child) {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+  &__item{
+    &_net {
+      margin-right: 40px;
+      margin-left: -48px;
+    }
+    &_first, &_second {
+      transform: translateY(-18px);
+    }
+  }
+}
+// STEPS 
+.steps {
+  position: relative;
+  padding: 147px 0 87px;
+  h2 {
+    color: #8cb9ff;
+    font-size: 98px;
+    font-weight: 100;
+    line-height: 80.55px;
+    margin-bottom: 36px;
+    span {
+      margin-left: 26px;
+      max-width: 290px;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+  &__item {
+    margin: 0 3px;
+    text-align: center;
+    height: 362px;
+    padding-top: 42px;
+    color: $color-white;
+    width: calc(25% - 6px);
+    position: relative;
+    background: url(../img/step-bg1.png) no-repeat center / cover;
+    &:nth-child(2) {
+      background-image: url(../img/step-bg2.png);
+    }
+    &:nth-child(3) {
+      background-image: url(../img/step-bg3.png);
+    }
+    &:nth-child(4) {
+      background-image: url(../img/step-bg4.png);
+    }
+  }
+  &__flex {
+    margin-left: -3px;
+  }
+  &__num {
+    padding-bottom: 6px;
+    width: 37px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 42.61px;
+    margin: 0 auto;
+    border-bottom: 5px solid $color-white;
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 26px;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  &__icon {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__text {
+    margin: 48px auto 22px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px
+  }
+  &__btn {
+    width: 255px;
+    height: 65px;
+    margin: 0 auto;
+  }
+}
+// COST 
+.cost {
+  position: relative;
+  padding: 73px 0 112px;
+  overflow: visible;
+  h2 {
+    font-size: 70px;
+    line-height: 78px;
+    .lightblue {
+      color: #92c8f1;
+    }
+    .blue {
+      color: #3b82bf;
+    }
+  }
+  &__elem {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+  &__box {
+    position: relative;
+    justify-content: space-between;
+    z-index: 3;
+  }
+  &__info {
+    max-width: 476px;
+  }
+  &__pic {
+    width: 454px;
+    height: 526px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__desc {
+    color: #131313;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 23px 0 41px;
+  }
+  &__block {
+    width: 401px;
+    position: relative;
+    border: 2px dotted $color-blue;
+    padding: 24px 34px 30px 56px;
+    margin-bottom: 52px;
+    background-image: linear-gradient(to top, #f4f4f4 0%, #ffffff 100%);
+    border-radius: 25px;
+    &:before {
+      width: 29px;
+      height: 40px;
+      position: absolute;
+      top: 35%;
+      left: -15px;
+      display: block;
+      content: '';
+      background: url(../img/cost-locked.svg) no-repeat center / contain;
+      background-color: $color-white;
+    }
+  }
+  &__top {
+    font-size: 40px;
+    line-height: 46px;
+    color: #131313;
+    margin-bottom: 11px;
+  }
+  &__price {
+    color: #3b82bf;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-blue;
+    font-weight: 600;
+  }
+  &__discount {
+    font-weight: 600;
+    color: $color-blue;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 41px;
+  }
+  &__send {
+    font-size: 20px;
+    line-height: 24px;
+    color: #131313;
+    font-weight: 600;
+  }
+  &__right {
+    margin-right: 68px;
+    margin-top: 20px;
+  }
+  &__btn {
+    width: 286px;
+    height: 65px;
+    margin-top: 102px;
+    margin-left: 26px;
+  }
+}
+
+// SERV 
+.serv {
+  position: relative;
+  background-image: linear-gradient(to top, #f5f5f5 0%, #ffffff 100%);
+  padding: 132px 0;
+  h2 {
+    font-size: 76px;
+    line-height: 80px;
+    color: $color-lightblue;
+    font-weight: 100;
+    margin-bottom: 82px;
+    span {
+      font-size: 62px;
+    }
+  }
+  &__box {
+    position: relative;
+    z-index: 3;
+  }
+  &__pic {
+    object-fit: contain;
+    width: 142px;
+    margin-right: 34px;
+    display: flex;
+    justify-content: center;
+    &1 {
+      width: 142px;
+      height: 131px;
+    }
+    &2 {
+      width: 115px;
+      height: 109px;
+    }
+    &3 {
+      width: 97px;
+      height: 102px;
+    }
+    &4 {
+      width: 78px;
+      height: 117px;
+    }
+    &5{
+      width: 71px;
+      height: 133px;
+    }
+  }
+  &__title {
+    color: $color-blue;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &__item {
+    margin-left: 38px;
+    align-items: center;
+    margin-bottom: 73px;
+  }
+  &__info {
+    max-width: 260px;
+  }
+  &__right {
+    margin-left: 123px;
+    margin-top: 71px;
+    .serv__pic {
+      width: 105px;
+    }
+  }
+}
+// CLIENTS 
+.clients {
+  padding: 125px 0;
+  position: relative;
+  h3 {
+   margin-bottom: 78px;
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 40px;
+    color: #131313;
+    margin-bottom: 31px;
+    text-transform: uppercase;
+  }
+  &__logo {
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -9px 11px 109px rgba(0, 0, 0, 0.14);
+    width: 211px;
+    margin: 0 7px;
+    padding: 10px;
+    img {
+      width: 100%;
+      max-width: 83%;
+      max-height: 60%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__row {
+    margin-bottom: 28px;
+  }
+  &__slider, &__media {
+    overflow: visible;
+  }
+  &__social {
+    margin-left: -259px;
+    margin-right: -259px;
+  }
+  &__games {
+    margin-left: -277px;
+    margin-right: -240px;
+  }
+  &__media {
+    margin-left: -186px;
+    margin-right: -330px;
+  }
+}
+// WE 
+.we {
+  position: relative;
+  padding: 167px 0 112px;
+  overflow: visible;
+  background-image: linear-gradient(to top, #ffffff 0%, #f5f5f5 100%);
+  &__elem {
+    position: absolute;
+    left: 0;
+    top: 224px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 70px;
+    line-height: 80px;
+  }
+  &__box {
+    position: relative;
+  }
+  &__item {
+    text-align: center;
+  }
+  &__flex {
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  &__num {
+    font-weight: 100;
+    font-size: 54px;
+    line-height: 50px;
+    margin-bottom: 7px;
+    color: #3b82bf;
+    text-transform: uppercase;
+  }
+  &__pink {
+    .we__num {
+      color: $color-pink;
+    }
+  }
+  &__text {
+    line-height: 50px;
+    font-size: 26px;
+  }
+}
+// GET 
+.get {
+  position: relative;
+  padding: 78px 0 133px;
+  &__pic {
+    width: 479px;
+    height: 558px;
+    margin-right: 29px;
+    margin-top: 16px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  h2 {
+    color: $color-lightblue;
+    font-weight: 100;
+    line-height: 60px;
+    font-size: 76px;
+    margin-bottom: 69px;
+    span {
+      font-size: 40px;
+      line-height: 50px;
+      margin-top: 20px;
+    }
+  }
+  &__box {
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__desc {
+    line-height: 30px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 80px;
+    max-width: 355px;
+  }
+  &__info {
+    margin-top: 90px;
+  }
+  &__btn {
+    width: 220px;
+    height: 65px;
+  }
+}
+#vmap {
+  border: none;
+  touch-action: manipulation;
+  transform: scale(1) !important;
+  margin-bottom: -30px;
+  max-width: 100% ;
+  margin: -100px auto 0;
+  svg {
+    touch-action: manipulation;
+
+  }
+}
+.card {
+  &__map {
+    max-width: 1400px;
+    max-height: 1000px;
+    margin: 0 auto;
+  }
+  * {
+    touch-action: manipulation;
+  }
+}
+.jqvmap-label {
+  touch-action: manipulation;
+}
+@media screen and (min-width: 2000px) {
+  #vmap {
+    width: 1400px !important;
+    height: 1300px !important;
+  }
+}
+@media screen and (max-width: 1799px) {
+  .clients{
+    &__social{
+      margin-left: -135px;
+      margin-right: -135px;
+    }
+    &__games {
+      margin-left: -165px;
+      margin-right: -165px;
+    }
+    &__media {
+      margin-left: -97px;
+      margin-right: -97px;
+    }
+  }
+}
+@media screen and (max-width: 1599px) {
+
+  .clients{
+    &__social{
+      margin-left: -45px;
+      margin-right: -45px;
+    }
+    &__games {
+      margin-left: -65px;
+      margin-right: -65px;
+    }
+    &__media {
+      margin-left: -37px;
+      margin-right: -37px;
+    }
+  }
+  .card {
+    &__pic {
+      top: -140px;
+    }
+  }
+  #vmap {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .clients{
+    &__slider{
+      margin: 0;
+    }
+  }
+
+}
+@media screen and (max-width: 1199px) {
+  .how{
+    &__notebook {
+      width: 120px;
+    }
+    &__service {
+      width: 60px;
+    }
+    &__internet {
+      width: 130px;
+    }
+    &__window {
+      width: 65px;
+    }
+    &__gamepad {
+      width: 84px;
+    }
+    &__likes {
+      width: 75px;
+    }
+    &__arrow {
+      width: 110px;
+      &_big {
+        width: 151px;
+      }
+    }
+    &__next_big .how__text {
+      top: 28%;
+    }
+    &__text {
+      font-size: 11px;
+    }
+    &__photo {
+      height: 150px;
+    }
+  }
+  .card {
+    &__num {
+      font-size: 53px;
+      line-height: 31.61px;
+    }
+  }
+  .how {
+    h2 {
+      font-size: 70px;
+      line-height: 70px;
+    }
+    &__bottom {
+      font-size: 16px;
+      width: 489px;
+      padding: 24px 36px 26px 54px;
+    }
+  }
+  .steps{
+    &__title {
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 23px;
+    }
+    &__item {
+      height: 320px;
+    }
+    h2 {
+      font-size: 75px;
+      line-height: 70px;
+      span {
+        font-size: 29px;
+        line-height: 34px;
+        margin-left: 20px;
+        max-width: 250px;
+      }
+    }
+  }
+  .cost {
+    h2 {
+      span {
+        font-size: 60px;
+        line-height: 60px;
+      }
+    }
+    &__pic {
+      width: 370px;
+      height: 413px;
+    }
+    &__desc {
+      font-size: 26px;
+    }
+    &__block {
+      width: 382px;
+      padding: 20px 30px 25px 38px;
+      margin-bottom: 30px;
+    }
+    &__info {
+      max-width: 400px;
+    }
+    &__discount {
+      font-size: 23px;
+      margin-bottom: 25px;
+      font-size: 23px;
+    }
+    &__top {
+      font-size: 37px;
+      line-height: 38px;
+    }
+  }
+  .serv {
+    h2 {
+      font-size: 65px;
+      span {
+        font-size: 54px;
+      }
+    }
+  } 
+  .clients {
+    &__logo {
+      height: 116px;
+      width: 170px;
+      padding: 28px 33px;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+  .we {
+    &__flex {
+      justify-content: space-around;
+    }
+    &__num {
+      font-size: 48px;
+      line-height: 38px;
+    }
+  }
+  .get {
+    h2 {
+      line-height: 44px;
+      font-size: 68px;
+      margin-bottom: 48px;
+    }
+    &__pic {
+      width: 406px;
+      height: 487px;
+    }
+    &__desc {
+      margin-bottom: 62px;
+    }
+  }
+
+
+}
+@media screen and (max-width: 991px) {
+  .card {
+    &__info {
+      margin-right: 0;
+    }
+  }
+  .how{
+    h2 {
+      position: absolute;
+      top: 35%;
+    }
+    &__flex {
+      flex-wrap: wrap;
+    }
+    &__next {
+      margin-top: -55px;
+      &_big {
+        margin-left: auto;
+        margin-right: 80px;
+        margin-top: 15px;
+        margin-bottom: 60px;
+      }
+    }
+    &__arrow_big {
+      transform: rotate(90deg);
+    }
+    &__block {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: -5px;
+      .how__pic {
+        margin: 0 20px;
+      }
+    }
+    &__window {
+      width: 47px;
+      height: 76px;
+    }
+    &__gamepad {
+      width: 74px;
+      height: 77px;
+    }
+    &__likes {
+      width: 69px;
+      height: 70px;
+    }
+  }
+  .steps {
+    &__item {
+      height: 250px;
+      padding-top: 20px;
+    }
+    &__num {
+      font-size: 25px;
+      line-height: 27.61px;
+      border-bottom: 2px solid #fff;
+    }
+    &__title {
+      padding: 0 10px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__icon {
+      width: 40px;
+      bottom: -5px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .cost{
+    h2 span {
+      font-size: 55px;
+      line-height: 55px;
+    }
+    &__pic {
+      width: 283px;
+      height: 376px;
+      margin-left: 24px;
+    }
+    &__right {
+      margin-right: 0;
+    }
+  } 
+  .serv {
+    &__item {
+      margin-left: 0;
+    }
+    &__right {
+      margin-left: 42px;
+      margin-top: 33px;
+      .serv__pic {
+        width: 80px;
+      }
+    }
+    h2{
+      font-size: 55px;
+      line-height: 60px;
+      span {
+        font-size: 45px;
+      }
+    }
+    &__pic {
+      transform: scale(0.8);
+      width: 110px;
+    }
+  }
+  .we {
+    padding: 150px 0 25px;
+    &__num {
+      font-size: 42px;
+      line-height: 36px;
+    }
+    &__text {
+      font-size: 24px;
+    }
+    &__elem {
+      max-width: 55%;
+    }
+  }
+  .get {
+    padding: 60px 0 75px;
+    &__pic {
+      margin-right: 0;
+      margin-top: 0;
+      width: 293px;
+      height: 387px;
+    }
+    h2 {
+      line-height: 41px;
+      font-size: 64px;
+      margin-bottom: 30px;
+    }
+    &__desc {
+      font-size: 22px;
+      margin-bottom: 45px;
+    }
+  }
+
+
+}
+@media screen and (max-width: 767px) {
+  .cost {
+    &__box {
+      flex-direction: column;
+    }
+  }
+  .card {
+    &__flex {
+      flex-direction: column;
+    }
+    &__info {
+      max-width: 100%;
+      margin-top: 22px;
+    }
+    &__form label {
+      width: 100%;
+    }
+    .form-input input {
+      width: 100%;
+    }
+  }
+  .how {
+    h2 {
+      position: relative;
+      text-align: center;
+      top: auto;
+      margin-bottom: 35px;
+    }
+    &__flex {
+      flex-direction: column;
+    }
+    &__next{
+      margin: 50px 0;
+      
+      &_without {
+        transform: none;
+      }
+      .how__text {
+        transform: translate(31px, 20px);
+      }
+      &_big {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        .how__text {
+          transform: translate(4px, 20px);
+          top: 14%;
+        }
+      }
+    }
+    &__block {
+      justify-content: center;
+      width: 82%;
+      margin-top: -55px;
+    }
+    &__item {
+      margin-right: auto;
+      margin-left: auto;
+      &_net {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    &__arrow {
+      transform: rotate(90deg);
+    }
+    &__bottom {
+      max-width: 100%;
+    }
+  }
+  .steps {
+    padding-top: 73px;
+    h2 {
+      font-size: 56px;
+    }
+    &__flex {
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: calc(50% - 6px);
+      margin-bottom: 25px;
+    }
+    &__text {
+      margin-top: 25px;
+    }
+  }
+  .cost {
+    padding-bottom: 50px;
+    &__info {
+      max-width: 100%;
+      text-align: center;
+    }
+    &__block {
+      width:auto;
+      text-align: center;
+      margin: 0 auto 30px;
+    }
+    &__pic {
+      margin: 0 auto;
+    }
+    &__btn {
+      margin: 30px auto 0;
+    }
+  }
+  .serv {
+    padding: 70px 0;
+    h2 {
+      margin-bottom: 45px;
+      text-align: center;
+    }
+    &__box {
+      flex-direction: column;
+    }
+    &__item {
+      width: 345px;
+      margin: 0 auto 20px;
+    }
+    &__right {
+      margin-left: 0;
+      margin-top: 0;
+      .serv__pic {
+        width: 110px;
+      }
+    }
+  }
+  .clients {
+    padding: 70px 0;
+    h3 {
+      margin-bottom: 55px;
+    }
+    &__title {
+      margin-bottom: 20px; 
+      font-size: 17px;
+      line-height: 22px;
+    }
+    &__logo {
+      width: 131px;
+      height: 91px;
+      padding: 24px 29px;
+    }
+  }
+  .we {
+    padding-top: 70px;
+    h2 {
+      margin-bottom: 65px;
+      span {
+        font-size: 52px;
+        line-height: 58px;
+      }
+    }
+    &__num {
+      font-size: 35px;
+      line-height: 28px;
+    }
+    &__text {
+      font-size: 19px;
+    }
+  }
+  .get {
+    padding-top: 0;
+    &__box {
+      position: relative;
+    }
+    &__info {
+      width: 100%;
+      margin-top: 50px;
+    }
+    &__pic {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      margin-top: 0;
+      width: 176px;
+      height: 197px;
+    }
+  }
+  #vmap {
+    margin-top: 0px;
+  }
+
+
+}
+@media screen and (max-width: 575px) {
+  .card {
+    padding: 50px 0 35px;
+    &__pic {
+     top: -30px; 
+    }
+    &__num {
+      font-size: 42px;
+      line-height: 17.61px;
+    }
+    &__desc {
+      line-height: 37px;
+      font-size: 29px;
+    }
+    &__btn {
+      width: 100%;
+    }
+  }
+  .how {
+    padding-top: 35px;
+    &__arrow {
+      width: 63px;
+      &_big {
+        margin-top: -14px;
+        margin-bottom: 27px;
+        width: 115px;
+        
+      }
+    }
+    &__next {
+      margin: 20px 0;
+      .how__text {
+        transform: translate(32px, 26px);
+      }
+      &_big {
+        .how__text {
+          transform: translate(-12px, 4px);
+        }
+      }
+      &_ip {
+        margin-bottom: 40px;
+        transform: translate(-1px, -17px);
+      }
+    }
+    &__photo {
+      height: 118px;
+    }
+    &__internet {
+      height: 95px;
+    }
+    &__bottom {
+      margin-left: 10px;
+      width: calc(100% - 10px);
+    }
+  }
+  .steps {
+    padding-bottom: 35px;
+    h2 {
+      flex-direction: column;
+      span {
+        margin-left: 4px;
+      }
+    }
+    &__item {
+      height: 214px;
+    }
+    &__text {
+      margin-top: 15px;
+      font-size: 16px;
+    }
+  }
+  .cost {
+    padding-top: 70px;
+    h2 {
+      span {
+        font-size: 36px;
+        line-height: 40px;
+      }
+    }
+    &__desc {
+      font-size: 22px;
+      margin: 20px 0 33px;
+    }
+    &__block {
+      padding: 20px;
+      &::before {
+        width: 23px;
+        height: 23px;
+        top: 40%;
+        left: -11px;
+      }
+    }
+    &__discount {
+      font-size: 19px;
+    }
+    &__send {
+      font-size: 17px;
+    }
+    &__pic {
+      width: 209px;
+      height: 195px;
+    }
+  }
+  .serv {
+    padding-bottom: 50px;
+    h2{
+      font-size: 40px;
+      line-height: 37px;
+      span {
+        font-size: 33px;
+      }
+    } 
+    &__pic {
+      transform: scale(0.6);
+      width: 85px;
+      margin-right: 18px;
+    }
+    &__right .serv__pic {
+      width: 85px;
+    }
+    &__item {
+      max-height: 90px;
+    }
+  } 
+  .clients {
+    padding-bottom: 40px;
+    &__logo {
+      width: 84px;
+      height: 65px;
+      padding: 15px 12px;
+    }
+    h3 {
+      margin-bottom: 35px;
+
+    }
+    &__title {
+      font-size: 14px;
+      margin-bottom: 17px;
+      line-height: 20px;
+    }
+  }
+  .we {
+    padding-bottom: 0;
+    h2{
+      margin-bottom: 40px;
+      span {
+        font-size: 39px;
+        line-height: 47px;
+      }
+    } 
+    &__flex {
+      flex-wrap: wrap;
+      margin-bottom: 34px;
+    }
+    &__text {
+      line-height: 24px;
+    }
+    &__item {
+      margin-bottom: 30px;
+    }
+  } 
+  .get {
+    h2 {
+      line-height: 21px;
+      font-size: 48px;
+      span {
+        font-size: 33px;
+        line-height: 43px;
+      }
+    }
+    &__pic {
+      bottom: 17%;
+      margin-top: 0;
+      width: 113px;
+      height: 139px;
+    }
+    &__desc {
+      font-size: 17px;
+      line-height: 24px;
+      max-width: 165px;
+    }
+  }
+
+
+}
